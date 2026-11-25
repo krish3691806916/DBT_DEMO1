@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+- name: dimtables
+  database: demo_db
+  schema: dbt_demo
+  tables:
+    - name : dim_customer
+    - name : dim_product
+    

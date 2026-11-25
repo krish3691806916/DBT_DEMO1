@@ -1,0 +1,1 @@
+select Product_Key,Effective_From from {{ source('dimtables','dim_product')}}
